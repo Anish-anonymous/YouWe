@@ -1,0 +1,188 @@
+.About {
+  height: 45vh;
+  width: 100%;
+  background: url(https://blogs.dw.com/womentalkonline/files/016757920_10100-300x168.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: -1;
+}
+
+#wave {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+#about-image {
+  height: 100%;
+  width: 100%;
+  margin-top: -30px;
+  /* z-index: 100; */
+}
+
+#content {
+  padding: 3%;
+}
+
+#about-content2 {
+  display: flex;
+  align-items: center;
+}
+
+#logo-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#about-logos {
+  height: 88%;
+  width: 60%;
+  box-shadow: 7px 7px 15px black;
+  border-radius: 50%;
+}
+
+#team {
+  padding: 2%;
+}
+
+.bod {
+  height: 400px;
+  width: 100%;
+}
+
+#bod2 {
+  background-image: url(./images/anshu.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+
+}
+
+.over {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  transition: all .5s;
+  opacity: 0;
+  margin: 0px 0px;
+}
+
+#bod2:hover .over {
+  opacity: 1;
+
+}
+
+#bod2:hover .content-bod {
+  opacity: 1;
+}
+
+#bod3 {
+  background-image: url(./images/shuham.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+
+}
+
+#bod3:hover .over {
+  opacity: 1;
+
+}
+
+#bod3:hover .content-bod {
+  opacity: 1;
+}
+
+.content-bod {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  color: white;
+  opacity: 0;
+  transition: 1.2s ease-in;
+}
+
+.team {
+  margin: 2%;
+}
+
+.team hr {
+  align-items: center;
+}
+
+.social_icon img {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .About {
+    height: 100vh;
+  }
+  #about-image {
+    height: 100%;
+    width: 100%;
+    margin-top: -30px;
+    /* z-index: 100; */
+  }
+  #about-content2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #logo-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #about-logos {
+    height: 88%;
+    width: 60%;
+    box-shadow: 7px 7px 15px black;
+    border-radius: 50%;
+  }
+  #team {
+    padding: 2%;
+  }
+  .bod {
+    height: 400px;
+    width: 100%;
+  }
+  .content-bod {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: white;
+    opacity: 0;
+    transition: 1.2s ease-in;
+  }
+  .team {
+    margin: 2%;
+  }
+  .team hr {
+    align-items: center;
+  }
+  .social_icon img {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+  }
+}

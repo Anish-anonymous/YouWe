@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+
+body {
+  background-image: url(./images/splash\ bg.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.program-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.pin1 {
+  position: relative;
+  top: 5px;
+  left: 0;
+}
+
+.pin2 {
+  position: relative;
+  top: 5px;
+  right: -30px;
+  float: right;
+
+}
+
+#education {
+  background: url(./images/education.jpg);
+  background-size: cover;
+  background-position: center center;
+  transform: rotate(2deg);
+}
+
+#awareness {
+  background: url(./images/aw.jpeg);
+  background-size: cover;
+  background-position: center center;
+  transform: rotate(-2deg);
+
+}
+
+#webinar {
+  background: url(./images/webinar.jpeg);
+  background-size: cover;
+  background-position: center center;
+  transform: rotate(2deg);
+}
+
+#covid-support {
+  background: url(./images/covid.jpeg);
+  background-size: cover;
+  background-position: center center;
+  transform: rotate(2deg);
+}
+
+#helpline {
+  background: url(./images/emergency_call.avif);
+  background-size: cover;
+  background-position: center center;
+  transform: rotate(-2deg);
+
+}
+
+#distribution {
+  background: url(./images/WhatsApp\ Image\ 2023-08-02\ at\ 11.07.18\ AM.jpeg);
+  background-size: cover;
+  background-position: center center;
+  transform: rotate(-2deg);
+
+}
+
+.program-row {
+  margin: 2% 1%;
+  padding: 1%;
+  background-color: #F0FFFF;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px black;
+}
+
+.tag-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.program-content {
+  padding: 2% 1%;
+  align-self: flex-start;
+}
+
+.p-education {
+  background-color: rgb(18, 217, 224);
+  padding: 0.5% 1%;
+}
+
+.p-awareness {
+  background-color: #f1803f;
+  padding: 0.5% 1%;
+}
+
+.p-webinar {
+  background-color: rgb(243, 151, 231);
+  padding: 0.5% 1%;
+}
+
+.p-distribution {
+  background-color: rgb(73, 192, 99);
+  padding: 0.5% 1%;
+}
+
+.p-covid {
+  background-color: rgb(247, 197, 59);
+  padding: 0.5% 1%;
+}
+
+.p-helpline {
+  background-color: rgb(238, 87, 87);
+  padding: 0.5% 1%;
+}
+
+.tag-button button {
+  background: none;
+  border: none;
+  padding: 1%;
+  font-weight: bold;
+
+}
+
+.tag-button button:hover {
+  transform: scale(1.2);
+}
+
+.tag-button button span {
+  text-transform: capitalize;
+  border-bottom: 1px solid black;
+}
+
+.read-more {
+  background-color: rgb(22, 0, 82);
+  color: white;
+  padding: 0.5% 1%;
+  border: none;
+  border-radius: 5px;
+}
+
+.container h1 {
+  font-family: 'Concert One', cursive;
+  text-align: center;
+  font-size: 65px;
+  padding: 2%;
+
+
+}
+
+.head {
+  background-image: url(./images/WhatsApp_Image_2023-08-02_at_12.13.56_PM-removebg-preview.png);
+  background-size: cover;
+
+  background-position: center center;
+  margin: 2%;
+  padding: 3%;
+  color: white;
+}
+
+.head h1 {
+  font-family: 'Concert One', cursive;
+  font-size: 65px;
+  text-align: center;
+}
+
+.head p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.head button {
+  background-color: rgb(22, 0, 82);
+  color: white;
+  padding: 0.5% 1%;
+  border: none;
+  border-radius: 5px;
+  margin: 2%;
+}
+
+.head button:hover {
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width: 600px) {
+  .container h1 {
+    font-size: 40px;
+  }
+
+  .head h1 {
+    font-size: 40px;
+  }
+
+  .head p {
+    font-size: 15px;
+  }
+
+  .program-row {
+    margin: 2% 0%;
+    padding: 1%;
+    background-color: #F0FFFF;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px black;
+  }
+
+  .program-content {
+    padding: 2% 1%;
+    align-self: flex-start;
+  }
+
+  .tag-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .tag-button button {
+    background: none;
+    border: none;
+    padding: 1%;
+    font-weight: bold;
+
+  }
+
+  .tag-button button:hover {
+    transform: scale(1.2);
+  }
+
+  .tag-button button span {
+    text-transform: capitalize;
+    border-bottom: 1px solid black;
+  }
+
+  .read-more {
+    background-color: rgb(22, 0, 82);
+    color: white;
+    padding: 0.5% 1%;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .head {
+    background-image: url(./images/WhatsApp_Image_2023-08-02_at_12.13.56_PM-removebg-preview.png);
+    background-size: cover;
+
+    background-position: center center;
+    margin: 2%;
+    padding: 3%;
+    color: white;
+  }
+
+  .head h1 {
+    font-family: 'Concert One', cursive;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .head p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .head button {
+    background-color: rgb(22, 0, 82);
+    color: white;
+    padding: 0.5% 1%;
+    border: none;
+    border-radius: 5px;
+    margin: 2%;
+  }
+
+  .head button:hover {
+    transform: scale(1.2);
+  }
+}

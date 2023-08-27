@@ -1,0 +1,93 @@
+.gallery-content {
+    height: 200px;
+    width: 100%;
+    background-image: url(./images/RapeVictim.jpg);
+    background-position: center center;
+
+}
+
+.gallery-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+}
+
+.gallery-overlay h1 {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.container {
+    padding: 2%;
+}
+
+.row {
+    margin: 2% 0;
+}
+
+.image {
+    height: 250px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px black;
+    position: relative;
+
+}
+
+.content {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.content:hover {
+    opacity: 1;
+}
+
+.gallery-image {
+    height: 100%;
+    width: 100%;
+}
+
+.bottom-line {
+    text-align: end;
+}
+
+@media only screen and (max-width: 600px) {
+    .container h1 {
+        font-size: 40px;
+    }
+
+    .row {
+        margin: 2% 0%;
+    }
+
+    .image {
+        height: 200px;
+    }
+
+    .content {
+        opacity: 1;
+    }
+
+    .content h1 {
+        font-size: 20px;
+    }
+
+    .content p {
+        font-size: 15px;
+    }
+
+    .bottom-line {
+        text-align: center;
+    }
+}

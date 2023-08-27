@@ -1,0 +1,307 @@
+.contactus-detail {
+    height: 200px;
+    width: 100%;
+    background-image: url(./images/RapeVictim.jpg);
+    background-position: center center;
+
+}
+
+.contact-overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contact-overlay h1 {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.map_contact {
+    width: 100%;
+    height: 300px;
+}
+
+.contact-icon {
+    padding: 5% 0%;
+}
+
+.contact-icon a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+.contact-icon img {
+    height: 11%;
+    width: 11%;
+    display: flex;
+    margin: 3% 5%;
+    background-color: rgb(201, 121, 46);
+    border-radius: 50%;
+    padding: 5px;
+    filter: drop-shadow(5px 5px 5px rgba(223, 137, 57, 0.7));
+}
+
+.contact-text span {
+    font-size: 40px;
+    border-bottom: 2px solid black;
+    margin: 5%;
+    border-radius: 5px;
+
+}
+
+#contact-row {
+    padding: 2.30% 0%;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+}
+
+.contact p {
+    align-self: center;
+    margin-bottom: 0px !important;
+}
+
+.email p {
+    align-self: center;
+    margin-bottom: 0px !important;
+}
+
+#contact-form span {
+    font-size: 40px;
+}
+
+form {
+    padding: 2%;
+}
+
+.name-email input {
+    width: 49.75%;
+    height: 50px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: gainsboro;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    background-color: gainsboro;
+    padding-left: 10px;
+    border-radius: 3px;
+    padding-top: 5px;
+    font-size: 17px !important;
+}
+
+.btn-contact button {
+    padding: 1%;
+    margin: 10px 0;
+    width: 17%;
+    background-color: chocolate;
+    border: none;
+    border-radius: 3px;
+}
+
+.donate-footer {
+    background-color: chocolate;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.donate-footer button {
+    padding: 7px;
+    border: none;
+    background: #0f0c29;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,
+            #24243e,
+            #302b63,
+            #0f0c29);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,
+            #24243e,
+            #302b63,
+            #0f0c29);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    border-radius: 5px;
+}
+
+.donate-footer button:hover {
+    background: #0f0c29;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,
+            #24243e,
+            #302b63,
+            #24243e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,
+            #24243e,
+            #302b63,
+            #24243e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.donate-footer p {
+    font-size: 20px;
+}
+
+.donate-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.donate-footer a:hover {
+    color: white;
+}
+
+.donate-footer img {
+    height: 40px;
+    width: 40px;
+    margin: 0 10px;
+}
+
+@media screen {
+    .contactus-detail {
+        height: 200px;
+        width: 100%;
+        background-image: url(./images/RapeVictim.jpg);
+        background-position: center center;
+    }
+
+    .contact-overlay {
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .contact-overlay h1 {
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .map_contact {
+        width: 100%;
+        height: 300px;
+    }
+
+    .contact-icon {
+        padding: 5% 0%;
+    }
+
+    .contact-icon a {
+        text-decoration: none;
+        font-size: 17px;
+        color: black;
+    }
+
+    .contact-icon img {
+        height: 11%;
+        width: 11%;
+        display: flex;
+        margin: 3% 5%;
+        background-color: rgb(201, 121, 46);
+        border-radius: 50%;
+        padding: 5px;
+        filter: drop-shadow(5px 5px 5px rgba(223, 137, 57, 0.7));
+    }
+
+    .contact-text span {
+        font-size: 40px;
+        border-bottom: 2px solid black;
+        margin: 5%;
+        border-radius: 5px;
+
+    }
+
+    #contact-row {
+        padding: 2.30% 0%;
+    }
+
+    .address {
+        display: flex;
+        align-items: center;
+    }
+
+    .contact {
+        display: flex;
+        align-items: center;
+    }
+
+    .email {
+        display: flex;
+        align-items: center;
+    }
+
+    .contact p {
+        align-self: center;
+        margin-bottom: 0px !important;
+    }
+
+    .email p {
+        align-self: center;
+        margin-bottom: 0px !important;
+    }
+
+    #contact-form span {
+        font-size: 40px;
+    }
+
+    form {
+        padding: 2%;
+    }
+
+    .name-email input {
+        width: 49.75%;
+        height: 50px;
+        margin-bottom: 15px;
+        border: none;
+        background-color: gainsboro;
+        padding-left: 10px;
+        border-radius: 3px;   
+    }
+
+    textarea {
+        width: 100%;
+        border: none;
+        background-color: gainsboro;
+        padding-left: 10px;
+        border-radius: 3px;
+        padding-top: 5px;
+        font-size: 17px !important;
+    }
+
+    .btn-contact button {
+        padding: 1%;
+        margin: 10px 0;
+        width: 17%;
+        background-color: chocolate;
+        border: none;
+        border-radius: 3px;
+    }
+    
+}
