@@ -149,11 +149,9 @@ body {
 }
 
 .read-more a {
-  background-color: rgb(22, 0, 82);
   color: white;
-  padding: 0.5% 1%;
-  border: none;
-  border-radius: 5px;
+  text-decoration: none;
+  font-size: 19px;
 }
 
 .container h1 {
@@ -256,6 +254,12 @@ body {
     border-radius: 5px;
   }
 
+  .read-more a {
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+  }
+  
   .head {
     background-image: url(./images/WhatsApp_Image_2023-08-02_at_12.13.56_PM-removebg-preview.png);
     background-size: cover;
